@@ -3,5 +3,5 @@ os: osx
 compiler: 
   - clang
 before_install:
-  - if [$TRAVIS_OS_NAME == osx]; then brew install gmp && brew install ntl; fi
+  - if [ $TRAVIS_OS_NAME == osx ]; then brew install gmp && brew install ntl; fi
 script: ./travis.sh
