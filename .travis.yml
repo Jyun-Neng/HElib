@@ -1,5 +1,6 @@
 language: cpp
 os: linux
-compiler: gcc
+compiler: 
+  - gcc
 
 script: ./travis.sh
