@@ -1,0 +1,5 @@
+language: cpp
+os: linux
+compiler: gcc
+
+script: travis.sh
